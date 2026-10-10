@@ -3,7 +3,6 @@ int main() {
 int a;
 float b;
 double c;
-MIT ADT University, Pune
 char ch;
 char name[50];
 // Input section
@@ -14,7 +13,7 @@ scanf("%f", &b);
 printf("Enter a double value: ");
 scanf("%lf", &c);
 printf("Enter a single character: ");
-scanf(" %c", &ch); // space before %c to skip leftover newline/whitespace
+scanf("  %c", &ch); // space before %c to skip leftover newline/whitespace
 printf("Enter a string (name): ");
 scanf("%s", name); // no & needed since name is an array (decays to pointer)
 // Output section
